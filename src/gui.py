@@ -190,7 +190,7 @@ class GameGUI(tkinter.Tk):
             messagebox.showerror('Rock Paper Scissors', 'Your input is invalid!')
             self.game_rounds = ''
 
-    
+
     def start_game(self):
         self.game_rounds = ''
         # Get game rounds from user
